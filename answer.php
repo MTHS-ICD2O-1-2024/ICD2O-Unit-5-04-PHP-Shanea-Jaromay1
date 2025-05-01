@@ -36,7 +36,7 @@
           $ageNumber = $_GET['age-number'];
           $daysNumber = $_GET['days-number'];
           // process
-          if ($daysNumber === 'Tuesday' || $daysNumber === 'Thursday' || ($userAge > 12 && $userAge < 21)) {
+          if ($daysNumber === 'Tuesday' || $daysNumber === 'Thursday' || ($ageNumber > 12 && $ageNumber < 21)) {
             // output
               echo "You get the student discount for the museum.";
           } else {
