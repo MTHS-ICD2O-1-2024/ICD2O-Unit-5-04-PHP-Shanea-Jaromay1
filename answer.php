@@ -38,10 +38,10 @@
           // process
           if ($daysNumber === 'Tuesday' || $daysNumber === 'Thursday' || ($ageNumber > 12 && $ageNumber < 21)) {
             // output
-              echo "You get the student discount for the museum.";
+              echo "Your age is" . $ageNumber . "and the days is" . $daysNumber . "You get the student discount for the museum.";
           } else {
             // output
-              echo "You pay the regular price";
+              echo "Your age is" . $ageNumber . "and the days is" . $daysNumber . "You pay the regular price";
           }
           ?>
         </div>
